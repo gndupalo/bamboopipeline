@@ -1,3 +1,4 @@
+#This is to ensure I see bucket changes for Hard fail
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
 }
@@ -8,7 +9,7 @@ resource "aws_s3_bucket_ownership_controls" "bamboo_checkov_bucket_ownership_con
     object_ownership = "BucketOwnerPreferred"
   }
 }
-#This is to ensure I see bucket changes for the Commentsbot
+#This is to ensure I see bucket changes for Hard fail
 resource "aws_s3_bucket_public_access_block" "bamboo_checkov_bucket_public_access_block" {
   bucket                  = aws_s3_bucket.bamboo_checkov_bucket.id
   block_public_acls       = false
