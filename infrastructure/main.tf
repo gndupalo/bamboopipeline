@@ -1,4 +1,4 @@
-#This is to ensure I see bucket changes for Comments with commentsbot2
+#This is to ensure I see bucket changes for Comments with commentsbot23
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
 }
