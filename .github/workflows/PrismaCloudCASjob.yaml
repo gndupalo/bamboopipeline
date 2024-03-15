@@ -1,4 +1,14 @@
-steps:
+---
+name: Checkov
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
