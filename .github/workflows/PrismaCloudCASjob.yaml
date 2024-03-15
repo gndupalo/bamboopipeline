@@ -1,9 +1,7 @@
 ---
 name: Checkov
 on:
-  push:
-    branches:
-      - master
+  pull_request
 jobs:
   build:
 
