@@ -1,5 +1,5 @@
 resource "aws_instance" "web_host" {
-  # ec2 have plain text secrets in user data for new PR
+  # ec2 have plain text secrets in user data for new PR with CommentsBot
   ami           = "${var.ami}"
   instance_type = "t2.nano"
 
