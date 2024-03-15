@@ -1,4 +1,4 @@
-#This is to ensure that changes made to the Enforcement rules are recognized for HARD FAIL
+#This is to ensure that changes made to the Enforcement rules are recognized for HARD FAIL AGAIN
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
 }
