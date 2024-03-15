@@ -1,5 +1,5 @@
 resource "aws_instance" "web_host" {
-  # ec2 have plain text secrets in user data which I am testing for Github actions
+  # ec2 have plain text secrets in user data which I am testing for Github actions. STILL Testing
   ami           = "${var.ami}"
   instance_type = "t2.nano"
 
