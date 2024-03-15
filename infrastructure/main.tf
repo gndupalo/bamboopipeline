@@ -1,4 +1,4 @@
-#This is to ensure I see bucket changes for commentsbot
+#This is to ensure I see bucket changes for commandsoftfail
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
 }
