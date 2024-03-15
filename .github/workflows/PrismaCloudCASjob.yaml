@@ -17,3 +17,4 @@ jobs:
           PRISMA_API_URL: https://api2.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
+          use_enforcement_rules: true 
