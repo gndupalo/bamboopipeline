@@ -1,4 +1,4 @@
-AWSTemplateFormatVersion: '2010-09-09' #New Test for Hardfail
+AWSTemplateFormatVersion: '2010-09-09' #New Test for Hardfails
 Description: 'State: RDS Postgres'
 Resources:
   RDSDBInstance:
