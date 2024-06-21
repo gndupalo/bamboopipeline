@@ -1,5 +1,5 @@
 /**
-* File name may be "providers.tf", "provider.tf", "versions.tf", "version.tf". "main.tf" should also be scanned for provider declarations.
+* File name may be "providers.tf", "provider.tf", "versions.tf", "version.tf". "main.tf" should also be scanned for provider declarations. Sample test
 **/
 
 terraform {
