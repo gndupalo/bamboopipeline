@@ -1,6 +1,9 @@
 #This is to ensure that changes made to the Enforcement rules are seen
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
+  tags = {
+    email = "dmensah"
+  }
 }
 
 resource "aws_s3_bucket_ownership_controls" "bamboo_checkov_bucket_ownership_controls" {
