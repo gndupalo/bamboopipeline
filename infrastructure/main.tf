@@ -1,6 +1,12 @@
 #This is to ensure that changes made to the Enforcement rules are seen
 resource "aws_s3_bucket" "bamboo_checkov_bucket" {
   bucket = "bamboo-checkov-bucket"
+  tags = {
+    git_org      = "gndupalo"
+    git_repo     = "bamboopipeline"
+    test_purpose = "gndu"
+    yor_trace    = "1534b614-ed36-490d-b9f5-7dc39d4845e8"
+  }
 }
 
 resource "aws_s3_bucket_ownership_controls" "bamboo_checkov_bucket_ownership_controls" {
